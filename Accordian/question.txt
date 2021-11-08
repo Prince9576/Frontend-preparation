@@ -1,0 +1,8 @@
+Q) Design an accordian, which when clicked it expands while closing every other Items ( Asked in Amazon ).
+
+Approach =>
+1) Get All the Accordians
+2) Loop through each and attach the corresponding event listeners 
+3) Get the next sibling
+4) Toggle the show class
+5) Close all the other items if they were expanded. (except the one which was just clicked)
